@@ -1,0 +1,1367 @@
+{
+  "version": "1.0.0",
+  "stand": "2026-11-25",
+  "legende": {
+    "beleg": "gemessen = Primaerquelle (Studie, Plattform-Angabe, eigene Messung) stuetzt Muster oder Mechanismus auf der in beleg_ebene genannten Ebene; praxis = Meinung/Handwerk, keine Messung",
+    "beleg_staerke": "mittel = Studie mit direktem Bezug zum Mechanismus; schwach = Labor ohne Video-Bezug, Plattform aus zweiter Hand, eigene n=1-Daten oder reine Praxis. Keine stark."
+  },
+  "warnungen": [
+    "No controlled comparison of hook types on short video exists in the sources we found. 'gemessen' means a primary source (study, platform statement, own measurement) supports the pattern or its mechanism, at the level named in 'ebene'; it does not mean the pattern is proven to make a video perform.",
+    "Platform timing advice conflicts: TikTok's own pages say hook within 6 s and proposition within 3 s; Shorts guides say 1-3 s; none gives an official retention benchmark.",
+    "Vendor statistics (89 percent 1-second retention, 2.4x, 68 percent completion and similar) are attributed to reports we could not trace. They are not used as evidence.",
+    "The Zeigarnik argument for open loops (unfinished tasks are remembered better) did not hold in a 2025 meta-analysis; the gap-of-curiosity argument (Loewenstein) and resumption (Ovsiankina) are what we rely on.",
+    "Examples are wording demos. Any factual claim or number in a real video needs a source on screen (motion-explainer rule). Brackets mark where a sourced value goes.",
+    "Meta and Instagram claims reach us through trade sites, not from the original posts."
+  ],
+  "idee_form_zu_muster": {
+    "misconception (people believe X)": [
+      "H02",
+      "H03",
+      "H28",
+      "M07"
+    ],
+    "mechanism (why does X happen)": [
+      "H01",
+      "H10",
+      "H21",
+      "H29",
+      "H23"
+    ],
+    "tips / list": [
+      "H05",
+      "H30",
+      "H25",
+      "H06"
+    ],
+    "comparison": [
+      "H18",
+      "H02",
+      "H28"
+    ],
+    "story / experiment": [
+      "H07",
+      "H17",
+      "H20",
+      "H09"
+    ],
+    "number / scale": [
+      "H22",
+      "H21",
+      "H14",
+      "H13"
+    ],
+    "relatable pain": [
+      "H10",
+      "H11",
+      "H12",
+      "H27"
+    ],
+    "ELI5 / analogy / dialogue": [
+      "H23",
+      "H24",
+      "H01"
+    ]
+  },
+  "quellen": {
+    "S1": {
+      "titel": "TikTok for Business: Creative best practices for performance ads (June 2025)",
+      "url": "https://ads.tiktok.com/help/article/creative-best-practices?lang=en"
+    },
+    "S2": {
+      "titel": "Meta hook types via Social Media Today (Meta blog 'The Science of the Hook', secondhand)",
+      "url": "https://socialmediatoday.com/news/meta-shares-tips-on-reels-hooks-creative-diversification-in-ads-and-threa/808182"
+    },
+    "S3": {
+      "titel": "Meta Reels tips via Social Media Today (1.7x / 1.5x claims, ads, secondhand)",
+      "url": "https://www.socialmediatoday.com/news/meta-shares-reels-tips-for-marketers/806808/"
+    },
+    "S4": {
+      "titel": "Golman & Loewenstein: Information Gaps (CMU)",
+      "url": "https://www.cmu.edu/dietrich/sds/docs/golman/Information%20Gaps--Golman%20and%20Loewenstein.pdf"
+    },
+    "S5": {
+      "titel": "Kang et al. 2009, epistemic curiosity and memory (Psychological Science)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19619181/"
+    },
+    "S6": {
+      "titel": "Robertson et al. 2023, Negativity drives online news consumption (Nature Human Behaviour)",
+      "url": "https://www.nature.com/articles/s41562-023-01538-4"
+    },
+    "S7": {
+      "titel": "Berger & Milkman 2012, What makes online content viral (J. Marketing Research)",
+      "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2011/11/Virality.pdf"
+    },
+    "S8": {
+      "titel": "Kornell, Hays & Bjork 2009, unsuccessful retrieval attempts enhance learning",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19586265/"
+    },
+    "S9": {
+      "titel": "Derek Muller (Veritasium): misconception-focused science videos (author summary, peer review not verified)",
+      "url": "https://rosetta.to/u/veritasium/khan-academy-and-the-effectiveness-of-science-videos"
+    },
+    "S10": {
+      "titel": "Ghibellini & Meier 2025, meta-analysis of Zeigarnik and Ovsiankina effects",
+      "url": "https://ideas.repec.org/a/pal/palcom/v12y2025i1d10.1057_s41599-025-05000-w.html"
+    },
+    "S11": {
+      "titel": "Kivetz, Urminsky & Zheng 2006, goal-gradient hypothesis (J. Marketing Research)",
+      "url": "https://business.columbia.edu/faculty/research/goal-gradient-hypothesis-resurrected-purchase-acceleration-illusionary-goal"
+    },
+    "S12": {
+      "titel": "Fredrickson & Kahneman 1993, duration neglect / peak-end (JPSP)",
+      "url": "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/fredr-kahneman-jpsp1993.pdf"
+    },
+    "S13": {
+      "titel": "Mayer: research-based principles for multimedia instruction (signaling, segmenting, coherence)",
+      "url": "https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf"
+    },
+    "S14": {
+      "titel": "Lang: Limited Capacity Model (LC4MP), cuts and orienting response",
+      "url": "https://en.wikipedia.org/wiki/LC4MP"
+    },
+    "S15": {
+      "titel": "Guo, Kim & Rubin 2014, how video production affects engagement (edX, 6.9 M sessions)",
+      "url": "https://www.cs.rochester.edu/hci/pubs/pdfs/edX-MOOC-video-production-and-engagement_LAS-2014.pdf"
+    },
+    "S16": {
+      "titel": "Driscoll et al. 2003, overhearing dialogue vs monologue (vicarious learning)",
+      "url": "https://digitalcommons.memphis.edu/facpubs/8941"
+    },
+    "S17": {
+      "titel": "University at Buffalo 2023, cliffhanger endings raise wish for the next installment",
+      "url": "https://www.buffalo.edu/news/releases/2023/06/hahn-cliffhangers.html"
+    },
+    "S18": {
+      "titel": "TechCrunch: YouTube Shorts counts every start and replay as a view (from 31 Mar 2025)",
+      "url": "https://techcrunch.com/2025/03/26/youtube-is-changing-how-youtube-shorts-views-are-counted"
+    },
+    "S19": {
+      "titel": "Social Samosa: Mosseri names watch time, likes, sends as top Instagram ranking signals (secondhand)",
+      "url": "https://www.socialsamosa.com/news-2/instagram-reveals-key-factors-for-boosting-reach-8646916"
+    },
+    "S20": {
+      "titel": "vidIQ: 18 viral hook ideas for YouTube Shorts (creator practice, example view counts)",
+      "url": "https://vidiq.com/blog/post/viral-video-hooks-youtube-shorts/"
+    },
+    "S21": {
+      "titel": "Opus: YouTube Shorts hook formulas (vendor blog, no sourced statistics)",
+      "url": "https://www.opus.pro/blog/youtube-shorts-hook-formulas"
+    },
+    "S22": {
+      "titel": "Green Frog Labs: 7 video hook patterns (vendor blog, statistics attributed to reports we could not verify)",
+      "url": "https://greenfroglabs.com/blog/video-hooks-scroll-stopping-2026"
+    },
+    "S23": {
+      "titel": "No Film School: 'but / therefore' instead of 'and then' (Parker and Stone, Tony Zhou)",
+      "url": "https://nofilmschool.com/2015/04/tony-zhou-storytelling-video-essay-f-fake-therefore-but-and-then"
+    },
+    "S24": {
+      "titel": "MindTools: Made to Stick summary (simple, unexpected, concrete, credible, emotional, stories)",
+      "url": "https://www.mindtools.com/ag4lj7j/made-to-stick/"
+    },
+    "S26": {
+      "titel": "3Play Media: Verizon Media / Publicis caption survey (5,616 US adults, self-reported)",
+      "url": "https://www.3playmedia.com/blog/verizon-media-and-publicis-media-find-viewers-want-captions/"
+    },
+    "S27": {
+      "titel": "Own data: content-studio/state/analysis/proof-log.md (entries 21.-24.11.2026)",
+      "url": "file:content-studio/state/analysis/proof-log.md"
+    },
+    "S28": {
+      "titel": "Own skill: .claude/skills/content-principles/SKILL.md (internal principles, not measured)",
+      "url": "file:.claude/skills/content-principles/SKILL.md"
+    }
+  },
+  "muster": [
+    {
+      "id": "H01",
+      "typ": "hook",
+      "name": "Information gap on a familiar thing",
+      "formel": "Ask or state something about [familiar object] that the viewer cannot yet explain.",
+      "mechanismus": "A specific unanswered question about something the viewer half-knows creates a felt gap; people want to close it and remember the answer better when curious. Needs some prior knowledge.",
+      "beispiele": {
+        "tech": "Why is your charger warm?",
+        "fitness": "Why are you sore two days later?",
+        "finanzen": "Where does your salary go first?"
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "labor-mechanismus",
+      "beleg_staerke": "mittel",
+      "quelle": [
+        "https://www.cmu.edu/dietrich/sds/docs/golman/Information%20Gaps--Golman%20and%20Loewenstein.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/19619181/"
+      ],
+      "quellen_ids": [
+        "S4",
+        "S5"
+      ],
+      "vorsicht": "Lab studies with trivia questions, not videos. Curiosity is low if the viewer knows nothing about the topic."
+    },
+    {
+      "id": "H02",
+      "typ": "hook",
+      "name": "Misconception first",
+      "formel": "State what most people believe about [thing], then break it with [fact].",
+      "mechanismus": "Confronting the wrong model forces effort; learners in one set of misconception-focused videos learned more than from clear, plain explanations.",
+      "beispiele": {
+        "tech": "Deleting a file does not delete it.",
+        "fitness": "Soreness is not proof the workout worked.",
+        "finanzen": "A big salary does not make you rich."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "video-experiment (Autor-Zusammenfassung)",
+      "beleg_staerke": "mittel",
+      "quelle": [
+        "https://rosetta.to/u/veritasium/khan-academy-and-the-effectiveness-of-science-videos"
+      ],
+      "quellen_ids": [
+        "S9"
+      ],
+      "vorsicht": "Effect shown for learning, not for scroll retention. Peer-reviewed paper not verified by us. Only use a misconception the audience really holds."
+    },
+    {
+      "id": "H03",
+      "typ": "hook",
+      "name": "Counterintuitive claim plus reason",
+      "formel": "[Counterintuitive claim about thing] + promise of [specific reason].",
+      "mechanismus": "A claim that clashes with expectation breaks autopilot and demands an explanation.",
+      "beispiele": {
+        "tech": "More megapixels will not give a better photo.",
+        "fitness": "Resting more can make you stronger.",
+        "finanzen": "Paying the cheapest debt first can cost you."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Vendor-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.opus.pro/blog/youtube-shorts-hook-formulas",
+        "https://greenfroglabs.com/blog/video-hooks-scroll-stopping-2026"
+      ],
+      "quellen_ids": [
+        "S21",
+        "S22"
+      ],
+      "vorsicht": "Vendor statistics (e.g. authority hooks get more comments) are not sourced. The claim must be true and sourceable."
+    },
+    {
+      "id": "H04",
+      "typ": "hook",
+      "name": "Negative frame",
+      "formel": "Stop [habit] / [thing] is quietly costing you [loss].",
+      "mechanismus": "In 105,000 headline variants tested on real readers, more negative words meant more clicks; sad wording beat angry or scary wording.",
+      "beispiele": {
+        "tech": "Stop reusing the same password.",
+        "fitness": "Stop doing crunches for abs.",
+        "finanzen": "Stop leaving cash in checking."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "Feldexperiment (Headlines, nicht Video)",
+      "beleg_staerke": "mittel",
+      "quelle": [
+        "https://www.nature.com/articles/s41562-023-01538-4"
+      ],
+      "quellen_ids": [
+        "S6"
+      ],
+      "vorsicht": "Headlines from the early social-media era, not short video. Do not exaggerate harm; never deflate the promise."
+    },
+    {
+      "id": "H05",
+      "typ": "hook",
+      "name": "Numbered promise with time cap",
+      "formel": "[N] [things] for [problem] in [T] seconds.",
+      "mechanismus": "Names the value and caps the time cost; a bigger N makes the gap look bigger.",
+      "beispiele": {
+        "tech": "3 phone settings to change in 30 seconds.",
+        "fitness": "4 desk stretches in 40 seconds.",
+        "finanzen": "5 money rules in 45 seconds."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "interne Prinzipien + Vendor-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.opus.pro/blog/youtube-shorts-hook-formulas",
+        "file:.claude/skills/content-principles/SKILL.md"
+      ],
+      "quellen_ids": [
+        "S21",
+        "S28"
+      ],
+      "vorsicht": "Not measured by us. Every number in a video still needs a source or must be a count of things in the video itself."
+    },
+    {
+      "id": "H06",
+      "typ": "hook",
+      "name": "Plain statement of intent (message early)",
+      "formel": "Say plainly what the viewer will see or learn: [what you will show].",
+      "mechanismus": "Meta lists it as an official hook type; Meta reports that putting message and brand in the first 5 s made ads 1.7x more likely to rank top for purchase intent.",
+      "beispiele": {
+        "tech": "Here is how Wi-Fi reaches your phone.",
+        "fitness": "Here is a squat, joint by joint.",
+        "finanzen": "Here is where one euro of tax goes."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "Plattform-Zahl (Meta, Anzeigen, aus zweiter Hand)",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://socialmediatoday.com/news/meta-shares-tips-on-reels-hooks-creative-diversification-in-ads-and-threa/808182",
+        "https://www.socialmediatoday.com/news/meta-shares-reels-tips-for-marketers/806808/"
+      ],
+      "quellen_ids": [
+        "S2",
+        "S3"
+      ],
+      "vorsicht": "Claim concerns ads and purchase intent, relayed by a trade site. Weak for organic explainers."
+    },
+    {
+      "id": "H07",
+      "typ": "hook",
+      "name": "Mid-action open",
+      "formel": "Start at the peak moment of [event], explain after.",
+      "mechanismus": "No setup means the first frame already holds tension; the viewer wants context.",
+      "beispiele": {
+        "tech": "Screen goes black. Phone restarts itself.",
+        "fitness": "Bar on your back. Legs start shaking.",
+        "finanzen": "Card declined. Bill on the table."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Vendor-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.opus.pro/blog/youtube-shorts-hook-formulas",
+        "https://greenfroglabs.com/blog/video-hooks-scroll-stopping-2026"
+      ],
+      "quellen_ids": [
+        "S21",
+        "S22"
+      ],
+      "vorsicht": "Vendor figure (31 percent higher completion) is unverified."
+    },
+    {
+      "id": "H08",
+      "typ": "hook",
+      "name": "Incomplete visual",
+      "formel": "Frame 1 shows [unusual thing] without explaining it; a caption names only what to watch.",
+      "mechanismus": "An unexplained image is a question the eye asks before the ear hears anything.",
+      "beispiele": {
+        "tech": "Frame 1: one chip glows inside an open phone.",
+        "fitness": "Frame 1: one muscle fibre tears.",
+        "finanzen": "Frame 1: one coin shrinks in a jar."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Vendor-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://greenfroglabs.com/blog/video-hooks-scroll-stopping-2026"
+      ],
+      "quellen_ids": [
+        "S22"
+      ],
+      "vorsicht": "Vendor figure (2.4x vs text hooks) attributed to a report we could not verify."
+    },
+    {
+      "id": "H09",
+      "typ": "hook",
+      "name": "Pattern interrupt",
+      "formel": "Break the expected look or sound of [format] in the first second, then land the hook.",
+      "mechanismus": "A sudden change triggers an automatic orienting response to new input (lab basis for cuts); overuse drains capacity.",
+      "beispiele": {
+        "tech": "Glitch cut, then: this is not a bug.",
+        "fitness": "Freeze-frame mid-jump: this is where it goes wrong.",
+        "finanzen": "Sound cuts. One red number on black."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Vendor-Praxis (Mechanismus: Lang, Labor)",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.opus.pro/blog/youtube-shorts-hook-formulas",
+        "https://greenfroglabs.com/blog/video-hooks-scroll-stopping-2026",
+        "https://en.wikipedia.org/wiki/LC4MP"
+      ],
+      "quellen_ids": [
+        "S21",
+        "S22",
+        "S14"
+      ],
+      "vorsicht": "Vendor figure (89 percent 1-second retention) is unverified. Lang's work: related cuts help, unrelated cuts do not reach memory."
+    },
+    {
+      "id": "H10",
+      "typ": "hook",
+      "name": "Self-identifying question",
+      "formel": "Ever [exact situation the viewer has been in]?",
+      "mechanismus": "The viewer recognises their own moment and holds the question themselves. Meta names question or invitation as an official hook type.",
+      "beispiele": {
+        "tech": "Ever typed a word and your phone changed it?",
+        "fitness": "Ever trained hard and seen no change?",
+        "finanzen": "Ever checked your balance and wondered where it went?"
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Plattform-Empfehlung ohne Zahl + Vendor-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://socialmediatoday.com/news/meta-shares-tips-on-reels-hooks-creative-diversification-in-ads-and-threa/808182",
+        "https://www.opus.pro/blog/youtube-shorts-hook-formulas"
+      ],
+      "quellen_ids": [
+        "S2",
+        "S21"
+      ],
+      "vorsicht": "Name the situation, not the person's job; naming a job excludes viewers (content-principles)."
+    },
+    {
+      "id": "H11",
+      "typ": "hook",
+      "name": "Direct address to a situation",
+      "formel": "You [specific daily situation]. [Consequence].",
+      "mechanismus": "A specific, recognisable situation feels sent to one person.",
+      "beispiele": {
+        "tech": "You open 40 tabs. Here is the cost.",
+        "fitness": "You sit all day. Your hips notice.",
+        "finanzen": "You are paid on the 1st. By the 15th it is gone."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Vendor-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://greenfroglabs.com/blog/video-hooks-scroll-stopping-2026"
+      ],
+      "quellen_ids": [
+        "S22"
+      ],
+      "vorsicht": "Vendor figure (2.1x saves) unverified. Keep the specificity in the object, not the audience label."
+    },
+    {
+      "id": "H12",
+      "typ": "hook",
+      "name": "Stakes / loss framing",
+      "formel": "[Thing] costs you [loss] if you ignore [detail].",
+      "mechanismus": "Names what the viewer stands to lose, which raises the value of the next seconds.",
+      "beispiele": {
+        "tech": "One weak password can empty an account.",
+        "fitness": "Skip this warm-up and your shoulder pays.",
+        "finanzen": "This fee quietly eats your savings."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Vendor-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://greenfroglabs.com/blog/video-hooks-scroll-stopping-2026"
+      ],
+      "quellen_ids": [
+        "S22"
+      ],
+      "vorsicht": "Vendor figure (68 percent completion) unverified. The loss must be real; invented danger destroys trust."
+    },
+    {
+      "id": "H13",
+      "typ": "hook",
+      "name": "Named-source lead",
+      "formel": "[Named source] checked [N] [things]. One result stood out.",
+      "mechanismus": "Credible, concrete provenance makes the claim worth the time.",
+      "beispiele": {
+        "tech": "[Named lab] tested [N] phones. One result stood out.",
+        "fitness": "[Named study], [N] lifters, one surprise.",
+        "finanzen": "[Named report] checked [N] accounts. Look at this."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Vendor-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://greenfroglabs.com/blog/video-hooks-scroll-stopping-2026",
+        "https://www.mindtools.com/ag4lj7j/made-to-stick/"
+      ],
+      "quellen_ids": [
+        "S22",
+        "S24"
+      ],
+      "vorsicht": "Brackets are placeholders: use only a source you have actually read; then show it on screen."
+    },
+    {
+      "id": "H14",
+      "typ": "hook",
+      "name": "Specific number or object instead of category",
+      "formel": "A [named object / number / date] did [surprising thing].",
+      "mechanismus": "Specific words can be pictured; category words trigger nothing.",
+      "beispiele": {
+        "tech": "A [price] cable can ruin a [price] laptop.",
+        "fitness": "A [number]-minute habit changed my [lift].",
+        "finanzen": "A [number]-euro fee cost [number] euros."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "interne Prinzipien + Buchpraxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "file:.claude/skills/content-principles/SKILL.md",
+        "https://www.mindtools.com/ag4lj7j/made-to-stick/"
+      ],
+      "quellen_ids": [
+        "S28",
+        "S24"
+      ],
+      "vorsicht": "Never invent the numbers; placeholders show where a sourced value goes."
+    },
+    {
+      "id": "H15",
+      "typ": "hook",
+      "name": "Surprising fact reveal",
+      "formel": "Did you know [familiar thing] has/does [unexpected fact]?",
+      "mechanismus": "A small surprise promises that the video holds more of them.",
+      "beispiele": {
+        "tech": "Did you know your phone has a barometer?",
+        "fitness": "Did you know your heart slows when you exhale?",
+        "finanzen": "Did you know bank holidays delay payments?"
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Creator-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://vidiq.com/blog/post/viral-video-hooks-youtube-shorts/"
+      ],
+      "quellen_ids": [
+        "S20"
+      ],
+      "vorsicht": "vidIQ's example view counts are anecdotes, not evidence for the pattern."
+    },
+    {
+      "id": "H16",
+      "typ": "hook",
+      "name": "Hidden information",
+      "formel": "The [thing] that [institution] tucks away / rarely explains.",
+      "mechanismus": "Implied hidden knowledge creates a gap with a villain.",
+      "beispiele": {
+        "tech": "A menu most phones tuck away.",
+        "fitness": "The rest-day rule trainers rarely explain.",
+        "finanzen": "The fee line banks put last."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Creator-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://vidiq.com/blog/post/viral-video-hooks-youtube-shorts/"
+      ],
+      "quellen_ids": [
+        "S20"
+      ],
+      "vorsicht": "High risk of deflating the loop and of unverifiable accusations. Use only when the payoff is real and true."
+    },
+    {
+      "id": "H17",
+      "typ": "hook",
+      "name": "Experiment on the viewer's behalf",
+      "formel": "I [did odd thing] for [duration] so you do not have to.",
+      "mechanismus": "Borrowed risk plus a promised outcome.",
+      "beispiele": {
+        "tech": "I used only airplane mode for a week.",
+        "fitness": "I trained 10 minutes a day for a month.",
+        "finanzen": "I tracked every cent for 30 days."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Creator-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://vidiq.com/blog/post/viral-video-hooks-youtube-shorts/"
+      ],
+      "quellen_ids": [
+        "S20"
+      ],
+      "vorsicht": "Needs a real experiment; for a fictional persona keep it clearly framed as such."
+    },
+    {
+      "id": "H18",
+      "typ": "hook",
+      "name": "X versus Y verdict",
+      "formel": "[A] vs [B]: which [wins on criterion]?",
+      "mechanismus": "A verdict question with two sides; the viewer picks one and wants to be right.",
+      "beispiele": {
+        "tech": "Wi-Fi or mobile data: which drains more?",
+        "fitness": "Running or walking: which burns more?",
+        "finanzen": "Rent or buy: where does the money go?"
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Creator-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://vidiq.com/blog/post/viral-video-hooks-youtube-shorts/"
+      ],
+      "quellen_ids": [
+        "S20"
+      ],
+      "vorsicht": "Only if you can actually give a clear verdict inside the video."
+    },
+    {
+      "id": "H19",
+      "typ": "hook",
+      "name": "Never-do confession",
+      "formel": "I never [common action], and here is why.",
+      "mechanismus": "A breach of a common habit plus an unanswered reason.",
+      "beispiele": {
+        "tech": "I never charge past a full battery on purpose.",
+        "fitness": "I never skip this one warm-up move.",
+        "finanzen": "I never keep money in one account."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Creator-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://vidiq.com/blog/post/viral-video-hooks-youtube-shorts/"
+      ],
+      "quellen_ids": [
+        "S20"
+      ],
+      "vorsicht": "Opinion hook: the reason must be defensible and sourced."
+    },
+    {
+      "id": "H20",
+      "typ": "hook",
+      "name": "Payoff first, then rewind",
+      "formel": "Show the result of [process] in frame 1, then go back to the start.",
+      "mechanismus": "The viewer sees the prize and stays for the how.",
+      "beispiele": {
+        "tech": "Frame 1: a fast phone. Rewind: how it got fast.",
+        "fitness": "Frame 1: the finished plank. Now how.",
+        "finanzen": "Frame 1: the final balance. Back to day one."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Vendor-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.opus.pro/blog/youtube-shorts-hook-formulas"
+      ],
+      "quellen_ids": [
+        "S21"
+      ],
+      "vorsicht": "Do not show a fake result."
+    },
+    {
+      "id": "H21",
+      "typ": "hook",
+      "name": "Guess first",
+      "formel": "Guess: [quantity / outcome of familiar thing]?",
+      "mechanismus": "Trying and failing to answer before seeing the answer improves learning of the answer; asking for a countable guess also gives viewers something to write in comments.",
+      "beispiele": {
+        "tech": "Guess: what drains first, screen or signal?",
+        "fitness": "Guess how many steps burn one burger.",
+        "finanzen": "Guess what 5 euros a day becomes."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "labor-mechanismus + eigene Daten",
+      "beleg_staerke": "mittel",
+      "quelle": [
+        "https://pubmed.ncbi.nlm.nih.gov/19586265/",
+        "file:content-studio/state/analysis/proof-log.md"
+      ],
+      "quellen_ids": [
+        "S8",
+        "S27"
+      ],
+      "vorsicht": "Lab effect is for learning, with caveats about delay and material. In our own data an open number question went with more comments (not proven causal). The answer must be sourced if it is a number."
+    },
+    {
+      "id": "H22",
+      "typ": "hook",
+      "name": "Awe-scale fact",
+      "formel": "[Familiar thing] is [N] times [bigger / faster / older] than [comparison].",
+      "mechanismus": "High-arousal emotions such as awe made articles more shareable; low-arousal ones such as sadness less so.",
+      "beispiele": {
+        "tech": "Your photo crosses oceans in a blink.",
+        "fitness": "Your heart beats about [N] times today.",
+        "finanzen": "A small fee can grow into a huge cost."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "Feld-Daten (NYT-Artikel) + Experimente",
+      "beleg_staerke": "mittel",
+      "quelle": [
+        "https://faculty.wharton.upenn.edu/wp-content/uploads/2011/11/Virality.pdf"
+      ],
+      "quellen_ids": [
+        "S7"
+      ],
+      "vorsicht": "Studied on articles and sharing, not on scroll-stop. Numbers need a source on screen."
+    },
+    {
+      "id": "H23",
+      "typ": "hook",
+      "name": "Dialogue open",
+      "formel": "[Figure A] asks a question; [figure B] answers with the first surprise.",
+      "mechanismus": "Overhearing a question-and-answer exchange engaged learners more than monologue in lab work; in our own test the same joke as a 25 s dialogue beat the 42 s narration.",
+      "beispiele": {
+        "tech": "Kid: Why is the phone hot? Phone: Good question.",
+        "fitness": "Kid: Why am I sore? Muscle: That was me.",
+        "finanzen": "Kid: Where did my allowance go? Wallet: Ask the snacks."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "eigene Daten (n=1 gegen n=1) + Labor",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "file:content-studio/state/analysis/proof-log.md",
+        "https://digitalcommons.memphis.edu/facpubs/8941"
+      ],
+      "quellen_ids": [
+        "S27",
+        "S16"
+      ],
+      "vorsicht": "Our comparison changed length and form at the same time (proof-log: cause not provable from one video). A confirmation test was pending."
+    },
+    {
+      "id": "H24",
+      "typ": "hook",
+      "name": "Everyday analogy",
+      "formel": "[Complex thing] is just [everyday thing] that [twist].",
+      "mechanismus": "A concrete picture replaces an abstract idea; fits explainers with simple pictograms.",
+      "beispiele": {
+        "tech": "Wi-Fi is a radio station for your phone.",
+        "fitness": "A muscle is a rubber band that learns.",
+        "finanzen": "Interest is rent on borrowed money."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Buchpraxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.mindtools.com/ag4lj7j/made-to-stick/"
+      ],
+      "quellen_ids": [
+        "S24"
+      ],
+      "vorsicht": "Check the analogy does not mislead."
+    },
+    {
+      "id": "H25",
+      "typ": "hook",
+      "name": "Time-promise",
+      "formel": "Understand [concept] in [T] seconds.",
+      "mechanismus": "Caps the time cost before the viewer asks for it.",
+      "beispiele": {
+        "tech": "Understand encryption in 20 seconds.",
+        "fitness": "A full warm-up in 30 seconds.",
+        "finanzen": "Understand compound interest in 25 seconds."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Vendor-Praxis + interne Prinzipien",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.opus.pro/blog/youtube-shorts-hook-formulas",
+        "file:.claude/skills/content-principles/SKILL.md"
+      ],
+      "quellen_ids": [
+        "S21",
+        "S28"
+      ],
+      "vorsicht": "Only promise a length you will keep."
+    },
+    {
+      "id": "H26",
+      "typ": "hook",
+      "name": "Say it and show it",
+      "formel": "Voice states [claim] while frame 1 shows [the thing itself].",
+      "mechanismus": "Meta reports hooks delivered through both picture and sound were 1.5x more likely to rank top for purchase intent.",
+      "beispiele": {
+        "tech": "Voice: this app is slowest. Screen: it loading.",
+        "fitness": "Voice: watch the knees. Screen: knees caving, arrow.",
+        "finanzen": "Voice: here is the leak. Screen: money dripping from a pipe."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "Plattform-Zahl (Meta, Anzeigen, aus zweiter Hand)",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.socialmediatoday.com/news/meta-shares-reels-tips-for-marketers/806808/"
+      ],
+      "quellen_ids": [
+        "S3"
+      ],
+      "vorsicht": "Ads and purchase intent, relayed by a trade site."
+    },
+    {
+      "id": "H27",
+      "typ": "hook",
+      "name": "Shared ignorance",
+      "formel": "Turns out I never understood [basic thing].",
+      "mechanismus": "Admitting a gap builds common ground and promises a quick lesson.",
+      "beispiele": {
+        "tech": "Turns out I never knew what RAM does.",
+        "fitness": "Turns out I stretched wrong for years.",
+        "finanzen": "Turns out I misread interest for years."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Creator-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://vidiq.com/blog/post/viral-video-hooks-youtube-shorts/"
+      ],
+      "quellen_ids": [
+        "S20"
+      ],
+      "vorsicht": "Persona must be consistent with the channel."
+    },
+    {
+      "id": "H28",
+      "typ": "hook",
+      "name": "But-therefore opener",
+      "formel": "[Expected thing]. But [twist]. Here is the [consequence].",
+      "mechanismus": "A 'but' creates tension at once; cause links replace a list of events.",
+      "beispiele": {
+        "tech": "Your phone is fast. But this app is slow.",
+        "fitness": "You train hard. But the scale does not move.",
+        "finanzen": "You earn more. But you keep the same."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Autoren-Praxis (Drehbuch)",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://nofilmschool.com/2015/04/tony-zhou-storytelling-video-essay-f-fake-therefore-but-and-then"
+      ],
+      "quellen_ids": [
+        "S23"
+      ],
+      "vorsicht": "Craft advice from screenwriters, not a measured effect."
+    },
+    {
+      "id": "H29",
+      "typ": "hook",
+      "name": "Text-first hook (sound-off safe)",
+      "formel": "Frame 1 already carries the hook as short on-screen text; voice repeats it.",
+      "mechanismus": "Many people watch with the sound off; TikTok advises text of about 5 to 10 words per second as context.",
+      "beispiele": {
+        "tech": "Frame 1 text: Why does your phone get hot?",
+        "fitness": "Frame 1 text: Why are you sore two days later?",
+        "finanzen": "Frame 1 text: Where does your salary go first?"
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "Umfrage (Selbstauskunft) + Plattform-Empfehlung",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://ads.tiktok.com/help/article/creative-best-practices?lang=en",
+        "https://www.3playmedia.com/blog/verizon-media-and-publicis-media-find-viewers-want-captions/"
+      ],
+      "quellen_ids": [
+        "S1",
+        "S26"
+      ],
+      "vorsicht": "Survey is self-reported; TikTok page gives a recommendation, not a measurement."
+    },
+    {
+      "id": "H30",
+      "typ": "hook",
+      "name": "Ranked list teaser",
+      "formel": "Top [N] [things] that [outcome].",
+      "mechanismus": "A list promises a clear end and cheap scanning.",
+      "beispiele": {
+        "tech": "Top 3 settings that slow your phone.",
+        "fitness": "Top 3 mistakes in a push-up.",
+        "finanzen": "Top 3 fees hiding in your account."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Creator-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://vidiq.com/blog/post/viral-video-hooks-youtube-shorts/"
+      ],
+      "quellen_ids": [
+        "S20"
+      ],
+      "vorsicht": "Needs real ranking logic; do not pad."
+    },
+    {
+      "id": "M01",
+      "typ": "middle",
+      "name": "Re-open a fresh loop at 60-70 percent",
+      "formel": "Pay the first question, then open [new question] before the viewer feels done.",
+      "mechanismus": "Information gaps drive wanting; a viewer who feels complete scrolls. Timing of 60-70 percent is an internal rule, not measured.",
+      "beispiele": {
+        "tech": "Paid: that is why it is hot. But when is hot too hot?",
+        "fitness": "Paid: that is why it hurts. But why on day two?",
+        "finanzen": "Paid: that is the fee. But who sets it?"
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "interne Prinzipien (Mechanismus: Loewenstein)",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "file:.claude/skills/content-principles/SKILL.md",
+        "https://www.cmu.edu/dietrich/sds/docs/golman/Information%20Gaps--Golman%20and%20Loewenstein.pdf"
+      ],
+      "quellen_ids": [
+        "S28",
+        "S4"
+      ],
+      "vorsicht": "Do not use the old Zeigarnik argument (unfinished tasks are remembered better): a 2025 meta-analysis did not support it. Resumption (Ovsiankina) held better."
+    },
+    {
+      "id": "M02",
+      "typ": "middle",
+      "name": "Pattern break (Musterbruch)",
+      "formel": "Change the established look/sound once at [beat] to mark a turn.",
+      "mechanismus": "Changes trigger an orienting response and re-focus attention; too many unrelated changes harm memory.",
+      "beispiele": {
+        "tech": "Beat 4: the phone icon shatters, the next beat shows it whole.",
+        "fitness": "Beat 4: the person jumps out of the row, bar turns red.",
+        "finanzen": "Beat 4: the bars flip, the tall one becomes small."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "labor-mechanismus (Mediennutzung)",
+      "beleg_staerke": "mittel",
+      "quelle": [
+        "https://en.wikipedia.org/wiki/LC4MP"
+      ],
+      "quellen_ids": [
+        "S14"
+      ],
+      "vorsicht": "Lab work on TV material. Use once, tied to the story."
+    },
+    {
+      "id": "M03",
+      "typ": "middle",
+      "name": "But / therefore chain",
+      "formel": "Link each beat to the last with 'but' or 'therefore', never 'and then'.",
+      "mechanismus": "Cause links make the viewer predict the next beat; a plain sequence gives no reason to continue.",
+      "beispiele": {
+        "tech": "Apps want data. But storage is full. Therefore it slows.",
+        "fitness": "You lift. But you do not rest. Therefore no growth.",
+        "finanzen": "You save. But prices rise. Therefore it shrinks."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Autoren-Praxis (Drehbuch)",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://nofilmschool.com/2015/04/tony-zhou-storytelling-video-essay-f-fake-therefore-but-and-then"
+      ],
+      "quellen_ids": [
+        "S23"
+      ],
+      "vorsicht": "Not measured."
+    },
+    {
+      "id": "M04",
+      "typ": "middle",
+      "name": "Signaling: mark the key word",
+      "formel": "Colour or highlight the one [key word] per sentence.",
+      "mechanismus": "Cues that mark what matters help learners follow multimedia lessons (median effect around d 0.4-0.7 in the multimedia-learning literature, varies by review).",
+      "beispiele": {
+        "tech": "Heat slows the CHIP.",
+        "fitness": "Sleep builds the MUSCLE.",
+        "finanzen": "Fees eat the RETURN."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "labor (Lernen mit Medien)",
+      "beleg_staerke": "mittel",
+      "quelle": [
+        "https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf"
+      ],
+      "quellen_ids": [
+        "S13"
+      ],
+      "vorsicht": "Effect is on learning, not on retention in a feed. Already part of the motion-explainer look (violet key words)."
+    },
+    {
+      "id": "M05",
+      "typ": "middle",
+      "name": "Segmenting: one idea per beat",
+      "formel": "One idea, one picture, one short sentence per beat.",
+      "mechanismus": "Learner-paced or chunked lessons beat one continuous block (median d around 0.8 in one review); on edX short videos were far more engaging.",
+      "beispiele": {
+        "tech": "Beat: heat. Beat: throttle. Beat: slow phone.",
+        "fitness": "Beat: tear. Beat: repair. Beat: stronger.",
+        "finanzen": "Beat: deposit. Beat: interest. Beat: more interest."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "labor + Feld (6.9 Mio. edX-Sitzungen)",
+      "beleg_staerke": "mittel",
+      "quelle": [
+        "https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf",
+        "https://www.cs.rochester.edu/hci/pubs/pdfs/edX-MOOC-video-production-and-engagement_LAS-2014.pdf"
+      ],
+      "quellen_ids": [
+        "S13",
+        "S15"
+      ],
+      "vorsicht": "edX study is on course videos of several minutes, not shorts."
+    },
+    {
+      "id": "M06",
+      "typ": "middle",
+      "name": "Coherence: cut what does not serve the promise",
+      "formel": "Remove every [line / icon / sound] that does not serve the hook's promise.",
+      "mechanismus": "Extraneous material hurts learning (median d around 0.9 in recent summary); short form is judged line by line.",
+      "beispiele": {
+        "tech": "Cut the history of the chip; keep why it heats.",
+        "fitness": "Cut the anatomy lecture; keep what to do tonight.",
+        "finanzen": "Cut the bank's history; keep what the fee does."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "labor (Lernen mit Medien)",
+      "beleg_staerke": "mittel",
+      "quelle": [
+        "https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-research-based-principles-for-designing-multimedia-instruction-mayer.pdf",
+        "file:.claude/skills/content-principles/SKILL.md"
+      ],
+      "quellen_ids": [
+        "S13",
+        "S28"
+      ],
+      "vorsicht": "Effect sizes vary by review and shrink in newer meta-analyses."
+    },
+    {
+      "id": "M07",
+      "typ": "middle",
+      "name": "Misconception swap",
+      "formel": "Say what the viewer would blame/assume ([wrong cause]), then replace it with [real cause].",
+      "mechanismus": "A refuted wrong model costs effort and sticks better than a plain explanation.",
+      "beispiele": {
+        "tech": "You blame the battery. It is the heat.",
+        "fitness": "You think sweat means fat loss. It is water.",
+        "finanzen": "You think a raise means richer. Spending rises too."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "video-experiment (Autor-Zusammenfassung)",
+      "beleg_staerke": "mittel",
+      "quelle": [
+        "https://rosetta.to/u/veritasium/khan-academy-and-the-effectiveness-of-science-videos"
+      ],
+      "quellen_ids": [
+        "S9"
+      ],
+      "vorsicht": "See H02: learning effect, not shown for retention."
+    },
+    {
+      "id": "M08",
+      "typ": "middle",
+      "name": "Progress marker",
+      "formel": "Show '[k] of [N]' or a filling bar through [list].",
+      "mechanismus": "People speed up as they approach a goal; a visible marker makes the end feel close.",
+      "beispiele": {
+        "tech": "Reason 2 of 3.",
+        "fitness": "Step 2 of 3.",
+        "finanzen": "Rule 2 of 3."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "labor/Feld (Prämienprogramme, nicht Video)",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://business.columbia.edu/faculty/research/goal-gradient-hypothesis-resurrected-purchase-acceleration-illusionary-goal"
+      ],
+      "quellen_ids": [
+        "S11"
+      ],
+      "vorsicht": "Shown for reward programs; transfer to video is our assumption."
+    },
+    {
+      "id": "M09",
+      "typ": "middle",
+      "name": "Promise-ahead teaser",
+      "formel": "Name the best part before it comes: 'the [ordinal] one is [adjective]'.",
+      "mechanismus": "A pointer to a coming payoff gives a reason to stay through the next beats.",
+      "beispiele": {
+        "tech": "Wait for beat 5. It surprised me.",
+        "fitness": "The last move changes everything.",
+        "finanzen": "The third fee is the sneaky one."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Vendor-Praxis (Mikro-Vorschau)",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.opus.pro/blog/youtube-shorts-hook-formulas"
+      ],
+      "quellen_ids": [
+        "S21"
+      ],
+      "vorsicht": "Must pay off exactly as named."
+    },
+    {
+      "id": "M10",
+      "typ": "middle",
+      "name": "Escalation ladder",
+      "formel": "Three steps of [same thing], each bigger, the last one unexpected.",
+      "mechanismus": "Rising stakes give a built-in prediction and a punch at the top.",
+      "beispiele": {
+        "tech": "1 tab: fine. 10 tabs: warm. 100 tabs: oven.",
+        "fitness": "1 rep: easy. 10 reps: burning. 30: shaking.",
+        "finanzen": "5 euros a day: nothing. A year: a trip. Ten years: a car."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "eigene Beobachtung (n=1, Ursache nicht beweisbar)",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "file:content-studio/state/analysis/proof-log.md"
+      ],
+      "quellen_ids": [
+        "S27"
+      ],
+      "vorsicht": "Our best Instagram result used a three-step ladder, but the proof-log says the cause cannot be isolated from one video. Numbers in the example are not sourced."
+    },
+    {
+      "id": "M11",
+      "typ": "middle",
+      "name": "Cut rhythm",
+      "formel": "New picture every [2 to 2.6] seconds; change the angle or icon, not only the words.",
+      "mechanismus": "TikTok advises transitions, stickers and graphics to keep viewers engaged; frequent visual change refreshes attention.",
+      "beispiele": {
+        "tech": "Chip, fan, battery.",
+        "fitness": "Knee, hip, back.",
+        "finanzen": "Coin, bar, arrow."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Plattform-Empfehlung ohne Zahl",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://ads.tiktok.com/help/article/creative-best-practices?lang=en",
+        "https://en.wikipedia.org/wiki/LC4MP"
+      ],
+      "quellen_ids": [
+        "S1",
+        "S14"
+      ],
+      "vorsicht": "Already in motion-explainer pacing. Unrelated cuts can hurt memory."
+    },
+    {
+      "id": "M12",
+      "typ": "middle",
+      "name": "Dialogue turn",
+      "formel": "A second voice objects or asks [question] at the turn.",
+      "mechanismus": "Overheard question-and-answer exchange engaged learners in lab work; our dialogue short beat our narrated one (confounded).",
+      "beispiele": {
+        "tech": "Phone: I am tired. User: You are a phone.",
+        "fitness": "Muscle: I am repairing. You: Can I train? Muscle: No.",
+        "finanzen": "Wallet: Feed me. Salary: Gone by the 15th."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "eigene Daten (n=1) + Labor",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "file:content-studio/state/analysis/proof-log.md",
+        "https://digitalcommons.memphis.edu/facpubs/8941"
+      ],
+      "quellen_ids": [
+        "S27",
+        "S16"
+      ],
+      "vorsicht": "Same caveat as H23."
+    },
+    {
+      "id": "M13",
+      "typ": "middle",
+      "name": "Concrete swap",
+      "formel": "Replace each [abstract phrase] with a [number, name or date].",
+      "mechanismus": "Specific words can be pictured and believed.",
+      "beispiele": {
+        "tech": "'Large file' becomes 'a four-minute video'.",
+        "fitness": "'Long run' becomes '40 minutes'.",
+        "finanzen": "'A lot of fees' becomes '[N] euros a year'."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "interne Prinzipien + Buchpraxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "file:.claude/skills/content-principles/SKILL.md",
+        "https://www.mindtools.com/ag4lj7j/made-to-stick/"
+      ],
+      "quellen_ids": [
+        "S28",
+        "S24"
+      ],
+      "vorsicht": "Only with sourced or self-counted numbers."
+    },
+    {
+      "id": "M14",
+      "typ": "middle",
+      "name": "Pause and predict",
+      "formel": "Ask 'what happens next?' one beat before the answer.",
+      "mechanismus": "A failed guess before the answer improves learning of the answer.",
+      "beispiele": {
+        "tech": "Beat 3: what drains first, screen or signal?",
+        "fitness": "Beat 3: which knee caves first?",
+        "finanzen": "Beat 3: which account earns more?"
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "labor-mechanismus",
+      "beleg_staerke": "mittel",
+      "quelle": [
+        "https://pubmed.ncbi.nlm.nih.gov/19586265/"
+      ],
+      "quellen_ids": [
+        "S8"
+      ],
+      "vorsicht": "Lab effect for learning with caveats; keep the pause under one beat."
+    },
+    {
+      "id": "E01",
+      "typ": "end",
+      "name": "Seamless loop",
+      "formel": "The last line ends mid-sentence and the first line completes it.",
+      "mechanismus": "Replays: YouTube counts every start and replay as a view since March 2025; Instagram ranks watch time. That loops raise results is not measured by us.",
+      "beispiele": {
+        "tech": "Last: 'That is why your charger feels...' First: '...warm. Why?'",
+        "fitness": "Last: 'That is why you are sore...' First: '...two days later.'",
+        "finanzen": "Last: 'That is why your money...' First: '...shrinks. How?'"
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Plattform-Fakt (Zählweise), Wirkung unbelegt",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://techcrunch.com/2025/03/26/youtube-is-changing-how-youtube-shorts-views-are-counted",
+        "https://www.socialsamosa.com/news-2/instagram-reveals-key-factors-for-boosting-reach-8646916"
+      ],
+      "quellen_ids": [
+        "S18",
+        "S19"
+      ],
+      "vorsicht": "A loop can feel forced; use only if the sentence still reads naturally."
+    },
+    {
+      "id": "E02",
+      "typ": "end",
+      "name": "Open-number comment question",
+      "formel": "Ask for a countable answer: '[Your number]? Write it below.'",
+      "mechanismus": "Own data: the video with an open number question got 13 comments after about two days against 1-2 for two closed-punchline videos of the same length. Instagram names sends and likes per reach as key signals.",
+      "beispiele": {
+        "tech": "How many tabs are open? Write the number.",
+        "fitness": "How many hours do you sleep? Write it.",
+        "finanzen": "What rate does your account pay? Write it."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "eigene Daten (3 Videos, kein Beweis)",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "file:content-studio/state/analysis/proof-log.md",
+        "https://www.socialsamosa.com/news-2/instagram-reveals-key-factors-for-boosting-reach-8646916"
+      ],
+      "quellen_ids": [
+        "S27",
+        "S19"
+      ],
+      "vorsicht": "Proof-log calls it a hint, not proof; a confirmation video was pending."
+    },
+    {
+      "id": "E03",
+      "typ": "end",
+      "name": "Send-worthy end",
+      "formel": "Send this to [specific person type] who [habit].",
+      "mechanismus": "Instagram's head named sends among top ranking signals and, in another answer, sends per reach as the strongest correlate of reach (secondhand report).",
+      "beispiele": {
+        "tech": "Send this to the friend with 100 tabs.",
+        "fitness": "Send this to your gym partner.",
+        "finanzen": "Send this to someone who loves subscriptions."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "Plattform-Angabe (aus zweiter Hand)",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.socialsamosa.com/news-2/instagram-reveals-key-factors-for-boosting-reach-8646916"
+      ],
+      "quellen_ids": [
+        "S19"
+      ],
+      "vorsicht": "Statement is about ranking, not about how to write the line. Use sparingly with the channel's one CTA rule."
+    },
+    {
+      "id": "E04",
+      "typ": "end",
+      "name": "Next-part tease",
+      "formel": "End on the open question of the next video: 'Part 2: [question]'.",
+      "mechanismus": "In written-story experiments, cliffhanger endings raised the wish to read on, without raising enjoyment.",
+      "beispiele": {
+        "tech": "Part 2: what happens when it freezes.",
+        "fitness": "Tomorrow: why day two hurts most.",
+        "finanzen": "Next: the fee nobody reads."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "Experiment (Textgeschichten)",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.buffalo.edu/news/releases/2023/06/hahn-cliffhangers.html"
+      ],
+      "quellen_ids": [
+        "S17"
+      ],
+      "vorsicht": "Written stories, not short video. Only if Part 2 really comes."
+    },
+    {
+      "id": "E05",
+      "typ": "end",
+      "name": "Peak-end: finish on the strongest beat",
+      "formel": "Put the most surprising or useful beat last, not a recap.",
+      "mechanismus": "People rate episodes by their peak and their end and neglect duration.",
+      "beispiele": {
+        "tech": "Last beat: the one-tap fix, big and alone.",
+        "fitness": "Last beat: the 10-second move that saves the knee.",
+        "finanzen": "Last beat: the fee, then what it cost."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "Labor (Erlebnisbewertung)",
+      "beleg_staerke": "mittel",
+      "quelle": [
+        "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/fredr-kahneman-jpsp1993.pdf"
+      ],
+      "quellen_ids": [
+        "S12"
+      ],
+      "vorsicht": "Lab episodes (films, pain), not feed videos."
+    },
+    {
+      "id": "E06",
+      "typ": "end",
+      "name": "Callback to the hook image",
+      "formel": "The last frame changes the hook's picture: [open thing] resolved.",
+      "mechanismus": "Closes the first loop visibly and rewards the whole watch.",
+      "beispiele": {
+        "tech": "Chip glowed in frame 1; last frame it cools.",
+        "fitness": "Torn fibre in frame 1; healed at the end.",
+        "finanzen": "Shrinking coin in frame 1; growing coin at the end."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Vendor-Praxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.opus.pro/blog/youtube-shorts-hook-formulas"
+      ],
+      "quellen_ids": [
+        "S21"
+      ],
+      "vorsicht": "Do not leave a different loop open at the same time."
+    },
+    {
+      "id": "E07",
+      "typ": "end",
+      "name": "One single action",
+      "formel": "One verb, one action: [Follow / comment / send] for [one benefit].",
+      "mechanismus": "Own data: after adding a comment call, the first test video got 3 comments on YouTube in about 2 h versus almost none before. TikTok advises a clear call to action.",
+      "beispiele": {
+        "tech": "Follow for one phone fix a day.",
+        "fitness": "Follow for one move a day.",
+        "finanzen": "Follow for one money rule a day."
+      },
+      "beleg": "gemessen",
+      "beleg_ebene": "eigene Daten (1 Video) + Plattform-Empfehlung",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "file:content-studio/state/analysis/proof-log.md",
+        "https://ads.tiktok.com/help/article/creative-best-practices?lang=en"
+      ],
+      "quellen_ids": [
+        "S27",
+        "S1"
+      ],
+      "vorsicht": "One video, other changes possible. Never stack two asks."
+    },
+    {
+      "id": "E08",
+      "typ": "end",
+      "name": "One-line takeaway",
+      "formel": "Close with [one repeatable line] the viewer can say back.",
+      "mechanismus": "A simple, memorable summary is easier to repeat and share.",
+      "beispiele": {
+        "tech": "Heat in, speed out.",
+        "fitness": "Rest is part of training.",
+        "finanzen": "Small fees, big loss."
+      },
+      "beleg": "praxis",
+      "beleg_ebene": "Buchpraxis",
+      "beleg_staerke": "schwach",
+      "quelle": [
+        "https://www.mindtools.com/ag4lj7j/made-to-stick/"
+      ],
+      "quellen_ids": [
+        "S24"
+      ],
+      "vorsicht": "Not measured."
+    }
+  ]
+}
