@@ -3,6 +3,8 @@
 A free Claude Code skill. You type one idea, Claude builds a short explainer video (9:16) in code on your computer:
 pictogram characters, thin line icons, word-by-word titles. No editor, no AI video model.
 
+<img src="demo.gif" width="280" alt="9-second example made with /motion-explainer">
+
 ## Install
 
 1. Copy the folder `skills/motion-explainer` into your `.claude/skills` folder.
