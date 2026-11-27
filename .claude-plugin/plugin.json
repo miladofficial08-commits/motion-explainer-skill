@@ -1,0 +1,9 @@
+{
+  "name": "motion-explainer",
+  "description": "Type one idea, get a short 9:16 explainer video built in code (HyperFrames). No editor, no AI video model.",
+  "version": "1.0.0",
+  "author": { "name": "AIMO" },
+  "homepage": "https://aimo-community.netlify.app/?src=gh",
+  "repository": "https://github.com/miladofficial08-commits/motion-explainer-skill",
+  "keywords": ["video", "explainer", "hyperframes", "motion-graphics", "shorts"]
+}
